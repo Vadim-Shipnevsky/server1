@@ -1,7 +1,7 @@
 // работа с express 
 import express from 'express' // подключение пакета express
 const app = express()
-const port = process.env.PORT || 3004 // выбор порта 
+const port = process.env.PORT || 3004 // выбор порта, для публикации на хостинг нужно указать process.env.PORT
 
 const jasonBodyMidlwair = express.json()
 app.use(jasonBodyMidlwair) // мидлвеер для преобразовании body в reqest
