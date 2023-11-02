@@ -33,4 +33,4 @@ const server = http.createServer((request, require) => {
 })
 
 // listen - сервер будет слушать 3003 порт 
-server.listen(3003) 
+// server.listen(3003) 
