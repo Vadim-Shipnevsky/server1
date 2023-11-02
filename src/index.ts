@@ -1,5 +1,5 @@
 // работа с express 
-import express from 'express' // подключение пакета express
+import express from 'express' // подключение пакета expres
 const app = express()
 const port = process.env.PORT || 3004 // выбор порта, для публикации на хостинг нужно указать process.env.PORT
 
