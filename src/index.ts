@@ -9,7 +9,7 @@ app.use(jasonBodyMidlwair) // мидлвеер для преобразовани
 
 const bd = { // условная база данных
   name: [
-    { id: 1, name: 'Вадим' },
+    { id: 1, name: 'Вад' },
     { id: 2, name: 'Вероника' },
     { id: 3, name: 'Даниил' },
   ]
