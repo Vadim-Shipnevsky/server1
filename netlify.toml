@@ -1,0 +1,3 @@
+[build]
+build = "yarn tsc",
+run = "node ./dist/index.js"
